@@ -1,0 +1,146 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+  }
+  
+
+
+.gift{
+    width: 90vw;
+    margin:   5rem auto;
+    display: flex;
+    gap: 3rem;
+    align-items: center;
+    /* min-width: 1170px; */
+
+}
+
+
+
+.iphone_img{
+    width: 100% ;
+    
+
+}
+
+.iphone_img > img{
+    /* height: auto; */
+    width: 100% ;
+    border-radius: 1rem;
+
+    
+}
+
+
+.gift_info{
+    width: 100%;
+    
+}
+
+.gift_info > h3{
+    font-size: 1.75rem;
+    margin-bottom: 0.75rem;
+    color: #0b64a4;
+    line-height: 1;
+    letter-spacing: 4px;
+
+}
+
+.gift_info >  h4{
+    margin-bottom: 0.75rem; 
+    font-size: 1rem;
+    letter-spacing: 4px;
+}
+
+.gift_info > p{
+    margin: 2rem 0;
+}
+
+@media screen  and (max-width: 992px) {
+    .gift{
+        width: 95vw;
+        margin:   4rem auto;
+        display: flex;
+        gap: 3rem;
+        align-items: center;
+        flex-direction: column;
+        /* min-width: 1170px; */
+    
+    }
+   
+}
+
+.countdown {
+    text-align: center;
+  }
+  
+ #timer {
+    font-size: 32px;
+    font-weight: bold;
+    display: flex;
+ }
+  
+
+
+ #rd {
+    padding-top:10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-right: 6px;
+    text-align: center;
+    border-radius: 6px;
+    width: 80px;
+    height: 100px;
+    background-color: midnightblue;
+    color: white;
+    
+}
+#rh {
+    padding-top: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-right: 5px;
+    text-align: center;
+    border-radius: 6px;
+    width: 80px;
+    height: 100px;
+    background-color: midnightblue;
+    color: white;
+}
+#rm {
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-right: 5px;
+    text-align: center;
+    border-radius: 6px;
+    width: 90px;
+    height: 100px;
+    background-color: midnightblue;
+    color: white;
+}
+#rs {
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    text-align: center;
+    border-radius: 6px;
+    width: 90px;
+    height: 100px;
+    background-color: midnightblue;
+    color: white;
+}
+span{
+    font-size:15px
+    
+}
